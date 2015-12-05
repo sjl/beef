@@ -1,4 +1,16 @@
 (defpackage :beef
   (:use :cl)
-  (:export #:slurp
-           #:spit))
+  (:use #:split-sequence)
+  (:export
+    #:split-lines
+
+    #:slurp
+    #:spit
+
+    #:slurp-lines
+
+    #:trim-whitespace
+    #:trim-whitespace-left
+    #:trim-whitespace-right
+
+    ))
