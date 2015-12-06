@@ -13,4 +13,8 @@
     #:trim-whitespace-left
     #:trim-whitespace-right
 
+    #:index
+    #:slice
+
+    #:partial
     ))
