@@ -1,6 +1,14 @@
 (in-package :beef)
 
 
+;;;; Hash Tables
+(defun hash-keys (table)
+  (loop :for k :being :the hash-keys :of table :collect k))
+
+(defun hash-values (table)
+  (loop :for v :being :the hash-values :of table :collect v))
+
+
 ;;;; Sequence Indexing/Slicing
 (defun calc-index (coll i)
   (if (>= i 0)

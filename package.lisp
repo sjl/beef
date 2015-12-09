@@ -2,6 +2,9 @@
   (:use :cl)
   (:use #:split-sequence)
   (:export
+    #:hash-keys
+    #:hash-values
+
     #:split-lines
 
     #:slurp
